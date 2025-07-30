@@ -1,0 +1,1497 @@
+    {
+        "dialogue": [
+            {
+                "turn": "user",
+                "utterance": "i am looking for a german restaurant in the west part of town ."
+            },
+            {
+                "turn": "system",
+                "utterance": "there are no german restaurants in the west part of town . would you like to make another query ?",
+                "annotated_query": "find a german restaurant in the west area",
+                "annotated_knowledge": [
+                    {
+                        "name": "la margherita",
+                        "area": "west",
+                        "food": "italian",
+                        "phone": "01223 315232",
+                        "pricerange": "cheap",
+                        "location": "52.210226,0.115646",
+                        "address": "15 magdalene street city centre",
+                        "type": "restaurant",
+                        "id": "19247",
+                        "postcode": "cb30af",
+                        "bar": "restaurant-with-bar/72.png",
+                        "garden": "restaurant-with-garden/127.png",
+                        "dining_room": "restaurant-dining-room/306.png",
+                        "nearby_attractions": "nearby_attractions/2.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/4.png",
+                            "specialty_dishes/5.png",
+                            "specialty_dishes/6.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "prezzo",
+                        "area": "west",
+                        "food": "italian",
+                        "phone": "01799 521260",
+                        "pricerange": "moderate",
+                        "location": "52.21032,0.11367",
+                        "address": "21 - 24 northampton road",
+                        "type": "restaurant",
+                        "id": "12700",
+                        "postcode": "cb30ad",
+                        "rooftop_bar": "restaurant-rooftop-bar/182.png",
+                        "sea_view": "restaurant-with-sea-view/118.png",
+                        "signature_food": "restaurant-signature-food/15.png",
+                        "nearby_attractions": "nearby_attractions/1.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/1.png",
+                            "specialty_dishes/2.png",
+                            "specialty_dishes/3.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "pizza hut city centre",
+                        "area": "centre",
+                        "food": "italian",
+                        "phone": "01223 323737",
+                        "pricerange": "cheap",
+                        "location": "52.20103,0.126023",
+                        "address": "regent street city centre",
+                        "type": "restaurant",
+                        "id": "19210",
+                        "postcode": "cb21ab",
+                        "garden": "restaurant-with-garden/172.png",
+                        "kid_friendly": "restaurant-kid-friendly/117.png",
+                        "dining_room": "restaurant-dining-room/350.png",
+                        "nearby_attractions": "nearby_attractions/3.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/7.png",
+                            "specialty_dishes/8.png",
+                            "specialty_dishes/9.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "the missing sock",
+                        "area": "east",
+                        "food": "international",
+                        "phone": "01223 812660",
+                        "pricerange": "cheap",
+                        "location": "52.21768,0.224907",
+                        "address": "finders corner newmarket road",
+                        "type": "restaurant",
+                        "id": "30650",
+                        "postcode": "cb259aq",
+                        "private_room": "restaurant-with-private-room/307.png",
+                        "kid_friendly": "restaurant-kid-friendly/116.png",
+                        "signature_food": "restaurant-signature-food/5.png",
+                        "nearby_attractions": "nearby_attractions/4.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/10.png",
+                            "specialty_dishes/11.png",
+                            "specialty_dishes/12.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "taj tandoori",
+                        "area": "south",
+                        "food": "indian",
+                        "phone": "01223 412299",
+                        "pricerange": "expensive",
+                        "location": "52.188747,0.138941",
+                        "address": "64 cherry hinton road cherry hinton",
+                        "type": "restaurant",
+                        "id": "19191",
+                        "postcode": "cb17aa",
+                        "parking_lot": "restaurant-parking-lot/1.jpg",
+                        "riverside": "restaurant-riverside/211.png",
+                        "signature_food": "restaurant-signature-food/1.png",
+                        "nearby_attractions": "nearby_attractions/5.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/13.png",
+                            "specialty_dishes/14.png",
+                            "specialty_dishes/15.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "curry garden",
+                        "area": "centre",
+                        "food": "indian",
+                        "phone": "01223 302330",
+                        "pricerange": "expensive",
+                        "location": "52.200187,0.126407",
+                        "address": "106 regent street city centre",
+                        "type": "restaurant",
+                        "id": "19214",
+                        "postcode": "cb21dp",
+                        "dining_room": "restaurant-dining-room/353.png",
+                        "parking_lot": "restaurant-parking-lot/2.jpg",
+                        "signature_food": "restaurant-signature-food/2.png",
+                        "nearby_attractions": "nearby_attractions/6.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/16.png",
+                            "specialty_dishes/17.png",
+                            "specialty_dishes/18.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "the good luck chinese food takeaway",
+                        "area": "south",
+                        "food": "chinese",
+                        "phone": "01223 244149",
+                        "pricerange": "expensive",
+                        "location": "52.188528,0.140627",
+                        "address": "82 cherry hinton road cherry hinton",
+                        "type": "restaurant",
+                        "id": "19192",
+                        "postcode": "cb17ag",
+                        "kid_friendly": "restaurant-kid-friendly/118.png",
+                        "dance_floor": "restaurant-with-dance-floor/168.png",
+                        "dining_room": "restaurant-dining-room/351.png",
+                        "nearby_attractions": "nearby_attractions/7.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/19.png",
+                            "specialty_dishes/20.png",
+                            "specialty_dishes/21.png"
+                        ],
+                        "label": "0"
+                    }
+                ]
+            },
+            {
+                "turn": "user",
+                "utterance": "how about italian food ?"
+            },
+            {
+                "turn": "system",
+                "utterance": "there are several italian restaurants in the west part of town . la margherita is cheap and prezzo is moderate . would you like the address of one of those ?",
+                "annotated_query": "find a italian restaurant in the west area",
+                "annotated_knowledge": [
+                    {
+                        "name": "la margherita",
+                        "area": "west",
+                        "food": "italian",
+                        "phone": "01223 315232",
+                        "pricerange": "cheap",
+                        "location": "52.210226,0.115646",
+                        "address": "15 magdalene street city centre",
+                        "type": "restaurant",
+                        "id": "19247",
+                        "postcode": "cb30af",
+                        "bar": "restaurant-with-bar/72.png",
+                        "garden": "restaurant-with-garden/127.png",
+                        "dining_room": "restaurant-dining-room/306.png",
+                        "nearby_attractions": "nearby_attractions/2.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/4.png",
+                            "specialty_dishes/5.png",
+                            "specialty_dishes/6.png"
+                        ],
+                        "label": "1"
+                    },
+                    {
+                        "name": "prezzo",
+                        "area": "west",
+                        "food": "italian",
+                        "phone": "01799 521260",
+                        "pricerange": "moderate",
+                        "location": "52.21032,0.11367",
+                        "address": "21 - 24 northampton road",
+                        "type": "restaurant",
+                        "id": "12700",
+                        "postcode": "cb30ad",
+                        "rooftop_bar": "restaurant-rooftop-bar/182.png",
+                        "sea_view": "restaurant-with-sea-view/118.png",
+                        "signature_food": "restaurant-signature-food/15.png",
+                        "nearby_attractions": "nearby_attractions/1.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/1.png",
+                            "specialty_dishes/2.png",
+                            "specialty_dishes/3.png"
+                        ],
+                        "label": "1"
+                    },
+                    {
+                        "name": "pizza hut city centre",
+                        "area": "centre",
+                        "food": "italian",
+                        "phone": "01223 323737",
+                        "pricerange": "cheap",
+                        "location": "52.20103,0.126023",
+                        "address": "regent street city centre",
+                        "type": "restaurant",
+                        "id": "19210",
+                        "postcode": "cb21ab",
+                        "garden": "restaurant-with-garden/172.png",
+                        "kid_friendly": "restaurant-kid-friendly/117.png",
+                        "dining_room": "restaurant-dining-room/350.png",
+                        "nearby_attractions": "nearby_attractions/3.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/7.png",
+                            "specialty_dishes/8.png",
+                            "specialty_dishes/9.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "the missing sock",
+                        "area": "east",
+                        "food": "international",
+                        "phone": "01223 812660",
+                        "pricerange": "cheap",
+                        "location": "52.21768,0.224907",
+                        "address": "finders corner newmarket road",
+                        "type": "restaurant",
+                        "id": "30650",
+                        "postcode": "cb259aq",
+                        "private_room": "restaurant-with-private-room/307.png",
+                        "kid_friendly": "restaurant-kid-friendly/116.png",
+                        "signature_food": "restaurant-signature-food/5.png",
+                        "nearby_attractions": "nearby_attractions/4.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/10.png",
+                            "specialty_dishes/11.png",
+                            "specialty_dishes/12.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "taj tandoori",
+                        "area": "south",
+                        "food": "indian",
+                        "phone": "01223 412299",
+                        "pricerange": "expensive",
+                        "location": "52.188747,0.138941",
+                        "address": "64 cherry hinton road cherry hinton",
+                        "type": "restaurant",
+                        "id": "19191",
+                        "postcode": "cb17aa",
+                        "parking_lot": "restaurant-parking-lot/1.jpg",
+                        "riverside": "restaurant-riverside/211.png",
+                        "signature_food": "restaurant-signature-food/1.png",
+                        "nearby_attractions": "nearby_attractions/5.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/13.png",
+                            "specialty_dishes/14.png",
+                            "specialty_dishes/15.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "curry garden",
+                        "area": "centre",
+                        "food": "indian",
+                        "phone": "01223 302330",
+                        "pricerange": "expensive",
+                        "location": "52.200187,0.126407",
+                        "address": "106 regent street city centre",
+                        "type": "restaurant",
+                        "id": "19214",
+                        "postcode": "cb21dp",
+                        "dining_room": "restaurant-dining-room/353.png",
+                        "parking_lot": "restaurant-parking-lot/2.jpg",
+                        "signature_food": "restaurant-signature-food/2.png",
+                        "nearby_attractions": "nearby_attractions/6.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/16.png",
+                            "specialty_dishes/17.png",
+                            "specialty_dishes/18.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "the good luck chinese food takeaway",
+                        "area": "south",
+                        "food": "chinese",
+                        "phone": "01223 244149",
+                        "pricerange": "expensive",
+                        "location": "52.188528,0.140627",
+                        "address": "82 cherry hinton road cherry hinton",
+                        "type": "restaurant",
+                        "id": "19192",
+                        "postcode": "cb17ag",
+                        "kid_friendly": "restaurant-kid-friendly/118.png",
+                        "dance_floor": "restaurant-with-dance-floor/168.png",
+                        "dining_room": "restaurant-dining-room/351.png",
+                        "nearby_attractions": "nearby_attractions/7.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/19.png",
+                            "specialty_dishes/20.png",
+                            "specialty_dishes/21.png"
+                        ],
+                        "label": "0"
+                    }
+                ]
+            },
+            {
+                "turn": "user",
+                "utterance": "Which restaurant can get the dish in the picture ?",
+                "image": "specialty_dishes/1.png"
+            },
+            {
+                "turn": "system",
+                "utterance": "This is a special dish unique to prezzo, we highly recommend you to try it !",
+                "annotated_query": "find an italian restaurant in west . request the specialty dish in picture .",
+                "annotated_knowledge": [
+                    {
+                        "name": "la margherita",
+                        "area": "west",
+                        "food": "italian",
+                        "phone": "01223 315232",
+                        "pricerange": "cheap",
+                        "location": "52.210226,0.115646",
+                        "address": "15 magdalene street city centre",
+                        "type": "restaurant",
+                        "id": "19247",
+                        "postcode": "cb30af",
+                        "bar": "restaurant-with-bar/72.png",
+                        "garden": "restaurant-with-garden/127.png",
+                        "dining_room": "restaurant-dining-room/306.png",
+                        "nearby_attractions": "nearby_attractions/2.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/4.png",
+                            "specialty_dishes/5.png",
+                            "specialty_dishes/6.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "prezzo",
+                        "area": "west",
+                        "food": "italian",
+                        "phone": "01799 521260",
+                        "pricerange": "moderate",
+                        "location": "52.21032,0.11367",
+                        "address": "21 - 24 northampton road",
+                        "type": "restaurant",
+                        "id": "12700",
+                        "postcode": "cb30ad",
+                        "rooftop_bar": "restaurant-rooftop-bar/182.png",
+                        "sea_view": "restaurant-with-sea-view/118.png",
+                        "signature_food": "restaurant-signature-food/15.png",
+                        "nearby_attractions": "nearby_attractions/1.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/1.png",
+                            "specialty_dishes/2.png",
+                            "specialty_dishes/3.png"
+                        ],
+                        "label": "1"
+                    },
+                    {
+                        "name": "pizza hut city centre",
+                        "area": "centre",
+                        "food": "italian",
+                        "phone": "01223 323737",
+                        "pricerange": "cheap",
+                        "location": "52.20103,0.126023",
+                        "address": "regent street city centre",
+                        "type": "restaurant",
+                        "id": "19210",
+                        "postcode": "cb21ab",
+                        "garden": "restaurant-with-garden/172.png",
+                        "kid_friendly": "restaurant-kid-friendly/117.png",
+                        "dining_room": "restaurant-dining-room/350.png",
+                        "nearby_attractions": "nearby_attractions/3.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/7.png",
+                            "specialty_dishes/8.png",
+                            "specialty_dishes/9.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "the missing sock",
+                        "area": "east",
+                        "food": "international",
+                        "phone": "01223 812660",
+                        "pricerange": "cheap",
+                        "location": "52.21768,0.224907",
+                        "address": "finders corner newmarket road",
+                        "type": "restaurant",
+                        "id": "30650",
+                        "postcode": "cb259aq",
+                        "private_room": "restaurant-with-private-room/307.png",
+                        "kid_friendly": "restaurant-kid-friendly/116.png",
+                        "signature_food": "restaurant-signature-food/5.png",
+                        "nearby_attractions": "nearby_attractions/4.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/10.png",
+                            "specialty_dishes/11.png",
+                            "specialty_dishes/12.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "taj tandoori",
+                        "area": "south",
+                        "food": "indian",
+                        "phone": "01223 412299",
+                        "pricerange": "expensive",
+                        "location": "52.188747,0.138941",
+                        "address": "64 cherry hinton road cherry hinton",
+                        "type": "restaurant",
+                        "id": "19191",
+                        "postcode": "cb17aa",
+                        "parking_lot": "restaurant-parking-lot/1.jpg",
+                        "riverside": "restaurant-riverside/211.png",
+                        "signature_food": "restaurant-signature-food/1.png",
+                        "nearby_attractions": "nearby_attractions/5.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/13.png",
+                            "specialty_dishes/14.png",
+                            "specialty_dishes/15.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "curry garden",
+                        "area": "centre",
+                        "food": "indian",
+                        "phone": "01223 302330",
+                        "pricerange": "expensive",
+                        "location": "52.200187,0.126407",
+                        "address": "106 regent street city centre",
+                        "type": "restaurant",
+                        "id": "19214",
+                        "postcode": "cb21dp",
+                        "dining_room": "restaurant-dining-room/353.png",
+                        "parking_lot": "restaurant-parking-lot/2.jpg",
+                        "signature_food": "restaurant-signature-food/2.png",
+                        "nearby_attractions": "nearby_attractions/6.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/16.png",
+                            "specialty_dishes/17.png",
+                            "specialty_dishes/18.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "the good luck chinese food takeaway",
+                        "area": "south",
+                        "food": "chinese",
+                        "phone": "01223 244149",
+                        "pricerange": "expensive",
+                        "location": "52.188528,0.140627",
+                        "address": "82 cherry hinton road cherry hinton",
+                        "type": "restaurant",
+                        "id": "19192",
+                        "postcode": "cb17ag",
+                        "kid_friendly": "restaurant-kid-friendly/118.png",
+                        "dance_floor": "restaurant-with-dance-floor/168.png",
+                        "dining_room": "restaurant-dining-room/351.png",
+                        "nearby_attractions": "nearby_attractions/7.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/19.png",
+                            "specialty_dishes/20.png",
+                            "specialty_dishes/21.png"
+                        ],
+                        "label": "0"
+                    }
+                ]
+            },
+            {
+                "turn": "user",
+                "utterance": "what is the phone number ?"
+            },
+            {
+                "turn": "system",
+                "utterance": "the phone number is 01799 521260 . is there anything else i can assist you with today ?",
+                "annotated_query": "find the prezzo . request the phone",
+                "annotated_knowledge": [
+                    {
+                        "name": "la margherita",
+                        "area": "west",
+                        "food": "italian",
+                        "phone": "01223 315232",
+                        "pricerange": "cheap",
+                        "location": "52.210226,0.115646",
+                        "address": "15 magdalene street city centre",
+                        "type": "restaurant",
+                        "id": "19247",
+                        "postcode": "cb30af",
+                        "bar": "restaurant-with-bar/72.png",
+                        "garden": "restaurant-with-garden/127.png",
+                        "dining_room": "restaurant-dining-room/306.png",
+                        "nearby_attractions": "nearby_attractions/2.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/4.png",
+                            "specialty_dishes/5.png",
+                            "specialty_dishes/6.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "prezzo",
+                        "area": "west",
+                        "food": "italian",
+                        "phone": "01799 521260",
+                        "pricerange": "moderate",
+                        "location": "52.21032,0.11367",
+                        "address": "21 - 24 northampton road",
+                        "type": "restaurant",
+                        "id": "12700",
+                        "postcode": "cb30ad",
+                        "rooftop_bar": "restaurant-rooftop-bar/182.png",
+                        "sea_view": "restaurant-with-sea-view/118.png",
+                        "signature_food": "restaurant-signature-food/15.png",
+                        "nearby_attractions": "nearby_attractions/1.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/1.png",
+                            "specialty_dishes/2.png",
+                            "specialty_dishes/3.png"
+                        ],
+                        "label": "1"
+                    },
+                    {
+                        "name": "pizza hut city centre",
+                        "area": "centre",
+                        "food": "italian",
+                        "phone": "01223 323737",
+                        "pricerange": "cheap",
+                        "location": "52.20103,0.126023",
+                        "address": "regent street city centre",
+                        "type": "restaurant",
+                        "id": "19210",
+                        "postcode": "cb21ab",
+                        "garden": "restaurant-with-garden/172.png",
+                        "kid_friendly": "restaurant-kid-friendly/117.png",
+                        "dining_room": "restaurant-dining-room/350.png",
+                        "nearby_attractions": "nearby_attractions/3.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/7.png",
+                            "specialty_dishes/8.png",
+                            "specialty_dishes/9.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "the missing sock",
+                        "area": "east",
+                        "food": "international",
+                        "phone": "01223 812660",
+                        "pricerange": "cheap",
+                        "location": "52.21768,0.224907",
+                        "address": "finders corner newmarket road",
+                        "type": "restaurant",
+                        "id": "30650",
+                        "postcode": "cb259aq",
+                        "private_room": "restaurant-with-private-room/307.png",
+                        "kid_friendly": "restaurant-kid-friendly/116.png",
+                        "signature_food": "restaurant-signature-food/5.png",
+                        "nearby_attractions": "nearby_attractions/4.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/10.png",
+                            "specialty_dishes/11.png",
+                            "specialty_dishes/12.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "taj tandoori",
+                        "area": "south",
+                        "food": "indian",
+                        "phone": "01223 412299",
+                        "pricerange": "expensive",
+                        "location": "52.188747,0.138941",
+                        "address": "64 cherry hinton road cherry hinton",
+                        "type": "restaurant",
+                        "id": "19191",
+                        "postcode": "cb17aa",
+                        "parking_lot": "restaurant-parking-lot/1.jpg",
+                        "riverside": "restaurant-riverside/211.png",
+                        "signature_food": "restaurant-signature-food/1.png",
+                        "nearby_attractions": "nearby_attractions/5.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/13.png",
+                            "specialty_dishes/14.png",
+                            "specialty_dishes/15.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "curry garden",
+                        "area": "centre",
+                        "food": "indian",
+                        "phone": "01223 302330",
+                        "pricerange": "expensive",
+                        "location": "52.200187,0.126407",
+                        "address": "106 regent street city centre",
+                        "type": "restaurant",
+                        "id": "19214",
+                        "postcode": "cb21dp",
+                        "dining_room": "restaurant-dining-room/353.png",
+                        "parking_lot": "restaurant-parking-lot/2.jpg",
+                        "signature_food": "restaurant-signature-food/2.png",
+                        "nearby_attractions": "nearby_attractions/6.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/16.png",
+                            "specialty_dishes/17.png",
+                            "specialty_dishes/18.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "the good luck chinese food takeaway",
+                        "area": "south",
+                        "food": "chinese",
+                        "phone": "01223 244149",
+                        "pricerange": "expensive",
+                        "location": "52.188528,0.140627",
+                        "address": "82 cherry hinton road cherry hinton",
+                        "type": "restaurant",
+                        "id": "19192",
+                        "postcode": "cb17ag",
+                        "kid_friendly": "restaurant-kid-friendly/118.png",
+                        "dance_floor": "restaurant-with-dance-floor/168.png",
+                        "dining_room": "restaurant-dining-room/351.png",
+                        "nearby_attractions": "nearby_attractions/7.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/19.png",
+                            "specialty_dishes/20.png",
+                            "specialty_dishes/21.png"
+                        ],
+                        "label": "0"
+                    }
+                ]
+            },
+            {
+                "turn": "user",
+                "utterance": "does the restaurant have a unique bar?"
+            },
+            {
+                "turn": "system",
+                "utterance": "prezzo has a nice rooftop bar with a night view of the city.",
+                "image": "restaurant-rooftop-bar/182.png",
+                "annotated_query": "ask for a restaurant called prezzo . request the rooftop bar .",
+                "annotated_knowledge": [
+                    {
+                        "name": "la margherita",
+                        "area": "west",
+                        "food": "italian",
+                        "phone": "01223 315232",
+                        "pricerange": "cheap",
+                        "location": "52.210226,0.115646",
+                        "address": "15 magdalene street city centre",
+                        "type": "restaurant",
+                        "id": "19247",
+                        "postcode": "cb30af",
+                        "bar": "restaurant-with-bar/72.png",
+                        "garden": "restaurant-with-garden/127.png",
+                        "dining_room": "restaurant-dining-room/306.png",
+                        "nearby_attractions": "nearby_attractions/2.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/4.png",
+                            "specialty_dishes/5.png",
+                            "specialty_dishes/6.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "prezzo",
+                        "area": "west",
+                        "food": "italian",
+                        "phone": "01799 521260",
+                        "pricerange": "moderate",
+                        "location": "52.21032,0.11367",
+                        "address": "21 - 24 northampton road",
+                        "type": "restaurant",
+                        "id": "12700",
+                        "postcode": "cb30ad",
+                        "rooftop_bar": "restaurant-rooftop-bar/182.png",
+                        "sea_view": "restaurant-with-sea-view/118.png",
+                        "signature_food": "restaurant-signature-food/15.png",
+                        "nearby_attractions": "nearby_attractions/1.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/1.png",
+                            "specialty_dishes/2.png",
+                            "specialty_dishes/3.png"
+                        ],
+                        "label": "1"
+                    },
+                    {
+                        "name": "pizza hut city centre",
+                        "area": "centre",
+                        "food": "italian",
+                        "phone": "01223 323737",
+                        "pricerange": "cheap",
+                        "location": "52.20103,0.126023",
+                        "address": "regent street city centre",
+                        "type": "restaurant",
+                        "id": "19210",
+                        "postcode": "cb21ab",
+                        "garden": "restaurant-with-garden/172.png",
+                        "kid_friendly": "restaurant-kid-friendly/117.png",
+                        "dining_room": "restaurant-dining-room/350.png",
+                        "nearby_attractions": "nearby_attractions/3.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/7.png",
+                            "specialty_dishes/8.png",
+                            "specialty_dishes/9.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "the missing sock",
+                        "area": "east",
+                        "food": "international",
+                        "phone": "01223 812660",
+                        "pricerange": "cheap",
+                        "location": "52.21768,0.224907",
+                        "address": "finders corner newmarket road",
+                        "type": "restaurant",
+                        "id": "30650",
+                        "postcode": "cb259aq",
+                        "private_room": "restaurant-with-private-room/307.png",
+                        "kid_friendly": "restaurant-kid-friendly/116.png",
+                        "signature_food": "restaurant-signature-food/5.png",
+                        "nearby_attractions": "nearby_attractions/4.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/10.png",
+                            "specialty_dishes/11.png",
+                            "specialty_dishes/12.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "taj tandoori",
+                        "area": "south",
+                        "food": "indian",
+                        "phone": "01223 412299",
+                        "pricerange": "expensive",
+                        "location": "52.188747,0.138941",
+                        "address": "64 cherry hinton road cherry hinton",
+                        "type": "restaurant",
+                        "id": "19191",
+                        "postcode": "cb17aa",
+                        "parking_lot": "restaurant-parking-lot/1.jpg",
+                        "riverside": "restaurant-riverside/211.png",
+                        "signature_food": "restaurant-signature-food/1.png",
+                        "nearby_attractions": "nearby_attractions/5.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/13.png",
+                            "specialty_dishes/14.png",
+                            "specialty_dishes/15.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "curry garden",
+                        "area": "centre",
+                        "food": "indian",
+                        "phone": "01223 302330",
+                        "pricerange": "expensive",
+                        "location": "52.200187,0.126407",
+                        "address": "106 regent street city centre",
+                        "type": "restaurant",
+                        "id": "19214",
+                        "postcode": "cb21dp",
+                        "dining_room": "restaurant-dining-room/353.png",
+                        "parking_lot": "restaurant-parking-lot/2.jpg",
+                        "signature_food": "restaurant-signature-food/2.png",
+                        "nearby_attractions": "nearby_attractions/6.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/16.png",
+                            "specialty_dishes/17.png",
+                            "specialty_dishes/18.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "the good luck chinese food takeaway",
+                        "area": "south",
+                        "food": "chinese",
+                        "phone": "01223 244149",
+                        "pricerange": "expensive",
+                        "location": "52.188528,0.140627",
+                        "address": "82 cherry hinton road cherry hinton",
+                        "type": "restaurant",
+                        "id": "19192",
+                        "postcode": "cb17ag",
+                        "kid_friendly": "restaurant-kid-friendly/118.png",
+                        "dance_floor": "restaurant-with-dance-floor/168.png",
+                        "dining_room": "restaurant-dining-room/351.png",
+                        "nearby_attractions": "nearby_attractions/7.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/19.png",
+                            "specialty_dishes/20.png",
+                            "specialty_dishes/21.png"
+                        ],
+                        "label": "0"
+                    }
+                ]
+            },
+            {
+                "turn": "user",
+                "utterance": "great, what is this restaurant signature food ?"
+            },
+            {
+                "turn": "system",
+                "utterance": "it was delicious cake with a thick layer of cream topped with passion fruit and mango .",
+                "image": "restaurant-signature-food/15.png",
+                "annotated_query": "find signature food of the prezzo .",
+                "annotated_knowledge": [
+                    {
+                        "name": "la margherita",
+                        "area": "west",
+                        "food": "italian",
+                        "phone": "01223 315232",
+                        "pricerange": "cheap",
+                        "location": "52.210226,0.115646",
+                        "address": "15 magdalene street city centre",
+                        "type": "restaurant",
+                        "id": "19247",
+                        "postcode": "cb30af",
+                        "bar": "restaurant-with-bar/72.png",
+                        "garden": "restaurant-with-garden/127.png",
+                        "dining_room": "restaurant-dining-room/306.png",
+                        "nearby_attractions": "nearby_attractions/2.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/4.png",
+                            "specialty_dishes/5.png",
+                            "specialty_dishes/6.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "prezzo",
+                        "area": "west",
+                        "food": "italian",
+                        "phone": "01799 521260",
+                        "pricerange": "moderate",
+                        "location": "52.21032,0.11367",
+                        "address": "21 - 24 northampton road",
+                        "type": "restaurant",
+                        "id": "12700",
+                        "postcode": "cb30ad",
+                        "rooftop_bar": "restaurant-rooftop-bar/182.png",
+                        "sea_view": "restaurant-with-sea-view/118.png",
+                        "signature_food": "restaurant-signature-food/15.png",
+                        "nearby_attractions": "nearby_attractions/1.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/1.png",
+                            "specialty_dishes/2.png",
+                            "specialty_dishes/3.png"
+                        ],
+                        "label": "1"
+                    },
+                    {
+                        "name": "pizza hut city centre",
+                        "area": "centre",
+                        "food": "italian",
+                        "phone": "01223 323737",
+                        "pricerange": "cheap",
+                        "location": "52.20103,0.126023",
+                        "address": "regent street city centre",
+                        "type": "restaurant",
+                        "id": "19210",
+                        "postcode": "cb21ab",
+                        "garden": "restaurant-with-garden/172.png",
+                        "kid_friendly": "restaurant-kid-friendly/117.png",
+                        "dining_room": "restaurant-dining-room/350.png",
+                        "nearby_attractions": "nearby_attractions/3.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/7.png",
+                            "specialty_dishes/8.png",
+                            "specialty_dishes/9.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "the missing sock",
+                        "area": "east",
+                        "food": "international",
+                        "phone": "01223 812660",
+                        "pricerange": "cheap",
+                        "location": "52.21768,0.224907",
+                        "address": "finders corner newmarket road",
+                        "type": "restaurant",
+                        "id": "30650",
+                        "postcode": "cb259aq",
+                        "private_room": "restaurant-with-private-room/307.png",
+                        "kid_friendly": "restaurant-kid-friendly/116.png",
+                        "signature_food": "restaurant-signature-food/5.png",
+                        "nearby_attractions": "nearby_attractions/4.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/10.png",
+                            "specialty_dishes/11.png",
+                            "specialty_dishes/12.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "taj tandoori",
+                        "area": "south",
+                        "food": "indian",
+                        "phone": "01223 412299",
+                        "pricerange": "expensive",
+                        "location": "52.188747,0.138941",
+                        "address": "64 cherry hinton road cherry hinton",
+                        "type": "restaurant",
+                        "id": "19191",
+                        "postcode": "cb17aa",
+                        "parking_lot": "restaurant-parking-lot/1.jpg",
+                        "riverside": "restaurant-riverside/211.png",
+                        "signature_food": "restaurant-signature-food/1.png",
+                        "nearby_attractions": "nearby_attractions/5.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/13.png",
+                            "specialty_dishes/14.png",
+                            "specialty_dishes/15.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "curry garden",
+                        "area": "centre",
+                        "food": "indian",
+                        "phone": "01223 302330",
+                        "pricerange": "expensive",
+                        "location": "52.200187,0.126407",
+                        "address": "106 regent street city centre",
+                        "type": "restaurant",
+                        "id": "19214",
+                        "postcode": "cb21dp",
+                        "dining_room": "restaurant-dining-room/353.png",
+                        "parking_lot": "restaurant-parking-lot/2.jpg",
+                        "signature_food": "restaurant-signature-food/2.png",
+                        "nearby_attractions": "nearby_attractions/6.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/16.png",
+                            "specialty_dishes/17.png",
+                            "specialty_dishes/18.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "the good luck chinese food takeaway",
+                        "area": "south",
+                        "food": "chinese",
+                        "phone": "01223 244149",
+                        "pricerange": "expensive",
+                        "location": "52.188528,0.140627",
+                        "address": "82 cherry hinton road cherry hinton",
+                        "type": "restaurant",
+                        "id": "19192",
+                        "postcode": "cb17ag",
+                        "kid_friendly": "restaurant-kid-friendly/118.png",
+                        "dance_floor": "restaurant-with-dance-floor/168.png",
+                        "dining_room": "restaurant-dining-room/351.png",
+                        "nearby_attractions": "nearby_attractions/7.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/19.png",
+                            "specialty_dishes/20.png",
+                            "specialty_dishes/21.png"
+                        ],
+                        "label": "0"
+                    }
+                ]
+            },
+            {
+                "turn": "user",
+                "utterance": "is the restaurant near the attraction in the picture ?",
+                "image": "nearby_attractions/1.png"
+            },
+            {
+                "turn": "system",
+                "utterance": "yes , after dinner you can go to that spot and hang out .",
+                "annotated_query": "find the attraction in the picture of the prezzo .",
+                "annotated_knowledge": [
+                    {
+                        "name": "la margherita",
+                        "area": "west",
+                        "food": "italian",
+                        "phone": "01223 315232",
+                        "pricerange": "cheap",
+                        "location": "52.210226,0.115646",
+                        "address": "15 magdalene street city centre",
+                        "type": "restaurant",
+                        "id": "19247",
+                        "postcode": "cb30af",
+                        "bar": "restaurant-with-bar/72.png",
+                        "garden": "restaurant-with-garden/127.png",
+                        "dining_room": "restaurant-dining-room/306.png",
+                        "nearby_attractions": "nearby_attractions/2.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/4.png",
+                            "specialty_dishes/5.png",
+                            "specialty_dishes/6.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "prezzo",
+                        "area": "west",
+                        "food": "italian",
+                        "phone": "01799 521260",
+                        "pricerange": "moderate",
+                        "location": "52.21032,0.11367",
+                        "address": "21 - 24 northampton road",
+                        "type": "restaurant",
+                        "id": "12700",
+                        "postcode": "cb30ad",
+                        "rooftop_bar": "restaurant-rooftop-bar/182.png",
+                        "sea_view": "restaurant-with-sea-view/118.png",
+                        "signature_food": "restaurant-signature-food/15.png",
+                        "nearby_attractions": "nearby_attractions/1.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/1.png",
+                            "specialty_dishes/2.png",
+                            "specialty_dishes/3.png"
+                        ],
+                        "label": "1"
+                    },
+                    {
+                        "name": "pizza hut city centre",
+                        "area": "centre",
+                        "food": "italian",
+                        "phone": "01223 323737",
+                        "pricerange": "cheap",
+                        "location": "52.20103,0.126023",
+                        "address": "regent street city centre",
+                        "type": "restaurant",
+                        "id": "19210",
+                        "postcode": "cb21ab",
+                        "garden": "restaurant-with-garden/172.png",
+                        "kid_friendly": "restaurant-kid-friendly/117.png",
+                        "dining_room": "restaurant-dining-room/350.png",
+                        "nearby_attractions": "nearby_attractions/3.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/7.png",
+                            "specialty_dishes/8.png",
+                            "specialty_dishes/9.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "the missing sock",
+                        "area": "east",
+                        "food": "international",
+                        "phone": "01223 812660",
+                        "pricerange": "cheap",
+                        "location": "52.21768,0.224907",
+                        "address": "finders corner newmarket road",
+                        "type": "restaurant",
+                        "id": "30650",
+                        "postcode": "cb259aq",
+                        "private_room": "restaurant-with-private-room/307.png",
+                        "kid_friendly": "restaurant-kid-friendly/116.png",
+                        "signature_food": "restaurant-signature-food/5.png",
+                        "nearby_attractions": "nearby_attractions/4.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/10.png",
+                            "specialty_dishes/11.png",
+                            "specialty_dishes/12.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "taj tandoori",
+                        "area": "south",
+                        "food": "indian",
+                        "phone": "01223 412299",
+                        "pricerange": "expensive",
+                        "location": "52.188747,0.138941",
+                        "address": "64 cherry hinton road cherry hinton",
+                        "type": "restaurant",
+                        "id": "19191",
+                        "postcode": "cb17aa",
+                        "parking_lot": "restaurant-parking-lot/1.jpg",
+                        "riverside": "restaurant-riverside/211.png",
+                        "signature_food": "restaurant-signature-food/1.png",
+                        "nearby_attractions": "nearby_attractions/5.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/13.png",
+                            "specialty_dishes/14.png",
+                            "specialty_dishes/15.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "curry garden",
+                        "area": "centre",
+                        "food": "indian",
+                        "phone": "01223 302330",
+                        "pricerange": "expensive",
+                        "location": "52.200187,0.126407",
+                        "address": "106 regent street city centre",
+                        "type": "restaurant",
+                        "id": "19214",
+                        "postcode": "cb21dp",
+                        "dining_room": "restaurant-dining-room/353.png",
+                        "parking_lot": "restaurant-parking-lot/2.jpg",
+                        "signature_food": "restaurant-signature-food/2.png",
+                        "nearby_attractions": "nearby_attractions/6.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/16.png",
+                            "specialty_dishes/17.png",
+                            "specialty_dishes/18.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "the good luck chinese food takeaway",
+                        "area": "south",
+                        "food": "chinese",
+                        "phone": "01223 244149",
+                        "pricerange": "expensive",
+                        "location": "52.188528,0.140627",
+                        "address": "82 cherry hinton road cherry hinton",
+                        "type": "restaurant",
+                        "id": "19192",
+                        "postcode": "cb17ag",
+                        "kid_friendly": "restaurant-kid-friendly/118.png",
+                        "dance_floor": "restaurant-with-dance-floor/168.png",
+                        "dining_room": "restaurant-dining-room/351.png",
+                        "nearby_attractions": "nearby_attractions/7.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/19.png",
+                            "specialty_dishes/20.png",
+                            "specialty_dishes/21.png"
+                        ],
+                        "label": "0"
+                    }
+                ]
+            },
+            {
+                "turn": "user",
+                "utterance": "thank you goodbye ."
+            },
+            {
+                "turn": "system",
+                "utterance": "thank you . good bye",
+                "annotated_query": "[NOTHING]",
+                "annotated_knowledge": [
+                    {
+                        "name": "the good luck chinese food takeaway",
+                        "area": "south",
+                        "food": "chinese",
+                        "phone": "01223 244149",
+                        "pricerange": "expensive",
+                        "location": "52.188528,0.140627",
+                        "address": "82 cherry hinton road cherry hinton",
+                        "type": "restaurant",
+                        "id": "19192",
+                        "postcode": "cb17ag",
+                        "kid_friendly": "restaurant-kid-friendly/118.png",
+                        "dance_floor": "restaurant-with-dance-floor/168.png",
+                        "dining_room": "restaurant-dining-room/351.png",
+                        "nearby_attractions": "nearby_attractions/7.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/19.png",
+                            "specialty_dishes/20.png",
+                            "specialty_dishes/21.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "taj tandoori",
+                        "area": "south",
+                        "food": "indian",
+                        "phone": "01223 412299",
+                        "pricerange": "expensive",
+                        "location": "52.188747,0.138941",
+                        "address": "64 cherry hinton road cherry hinton",
+                        "type": "restaurant",
+                        "id": "19191",
+                        "postcode": "cb17aa",
+                        "parking_lot": "restaurant-parking-lot/1.jpg",
+                        "riverside": "restaurant-riverside/211.png",
+                        "signature_food": "restaurant-signature-food/1.png",
+                        "nearby_attractions": "nearby_attractions/5.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/13.png",
+                            "specialty_dishes/14.png",
+                            "specialty_dishes/15.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "curry garden",
+                        "area": "centre",
+                        "food": "indian",
+                        "phone": "01223 302330",
+                        "pricerange": "expensive",
+                        "location": "52.200187,0.126407",
+                        "address": "106 regent street city centre",
+                        "type": "restaurant",
+                        "id": "19214",
+                        "postcode": "cb21dp",
+                        "dining_room": "restaurant-dining-room/353.png",
+                        "parking_lot": "restaurant-parking-lot/2.jpg",
+                        "signature_food": "restaurant-signature-food/2.png",
+                        "nearby_attractions": "nearby_attractions/6.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/16.png",
+                            "specialty_dishes/17.png",
+                            "specialty_dishes/18.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "the missing sock",
+                        "area": "east",
+                        "food": "international",
+                        "phone": "01223 812660",
+                        "pricerange": "cheap",
+                        "location": "52.21768,0.224907",
+                        "address": "finders corner newmarket road",
+                        "type": "restaurant",
+                        "id": "30650",
+                        "postcode": "cb259aq",
+                        "private_room": "restaurant-with-private-room/307.png",
+                        "kid_friendly": "restaurant-kid-friendly/116.png",
+                        "signature_food": "restaurant-signature-food/5.png",
+                        "nearby_attractions": "nearby_attractions/4.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/10.png",
+                            "specialty_dishes/11.png",
+                            "specialty_dishes/12.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "la margherita",
+                        "area": "west",
+                        "food": "italian",
+                        "phone": "01223 315232",
+                        "pricerange": "cheap",
+                        "location": "52.210226,0.115646",
+                        "address": "15 magdalene street city centre",
+                        "type": "restaurant",
+                        "id": "19247",
+                        "postcode": "cb30af",
+                        "bar": "restaurant-with-bar/72.png",
+                        "garden": "restaurant-with-garden/127.png",
+                        "dining_room": "restaurant-dining-room/306.png",
+                        "nearby_attractions": "nearby_attractions/2.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/4.png",
+                            "specialty_dishes/5.png",
+                            "specialty_dishes/6.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "prezzo",
+                        "area": "west",
+                        "food": "italian",
+                        "phone": "01799 521260",
+                        "pricerange": "moderate",
+                        "location": "52.21032,0.11367",
+                        "address": "21 - 24 northampton road",
+                        "type": "restaurant",
+                        "id": "12700",
+                        "postcode": "cb30ad",
+                        "rooftop_bar": "restaurant-rooftop-bar/182.png",
+                        "sea_view": "restaurant-with-sea-view/118.png",
+                        "signature_food": "restaurant-signature-food/15.png",
+                        "nearby_attractions": "nearby_attractions/1.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/1.png",
+                            "specialty_dishes/2.png",
+                            "specialty_dishes/3.png"
+                        ],
+                        "label": "0"
+                    },
+                    {
+                        "name": "pizza hut city centre",
+                        "area": "centre",
+                        "food": "italian",
+                        "phone": "01223 323737",
+                        "pricerange": "cheap",
+                        "location": "52.20103,0.126023",
+                        "address": "regent street city centre",
+                        "type": "restaurant",
+                        "id": "19210",
+                        "postcode": "cb21ab",
+                        "garden": "restaurant-with-garden/172.png",
+                        "kid_friendly": "restaurant-kid-friendly/117.png",
+                        "dining_room": "restaurant-dining-room/350.png",
+                        "nearby_attractions": "nearby_attractions/3.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/7.png",
+                            "specialty_dishes/8.png",
+                            "specialty_dishes/9.png"
+                        ],
+                        "label": "0"
+                    }
+                ]
+            }
+        ],
+        "scenario": {
+            "kb": {
+                "items": [
+                    {
+                        "name": "la margherita",
+                        "area": "west",
+                        "food": "italian",
+                        "phone": "01223 315232",
+                        "pricerange": "cheap",
+                        "location": "52.210226,0.115646",
+                        "address": "15 magdalene street city centre",
+                        "type": "restaurant",
+                        "id": "19247",
+                        "postcode": "cb30af",
+                        "bar": "restaurant-with-bar/72.png",
+                        "garden": "restaurant-with-garden/127.png",
+                        "dining_room": "restaurant-dining-room/306.png",
+                        "nearby_attractions": "nearby_attractions/2.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/4.png",
+                            "specialty_dishes/5.png",
+                            "specialty_dishes/6.png"
+                        ]
+                    },
+                    {
+                        "name": "the good luck chinese food takeaway",
+                        "area": "south",
+                        "food": "chinese",
+                        "phone": "01223 244149",
+                        "pricerange": "expensive",
+                        "location": "52.188528,0.140627",
+                        "address": "82 cherry hinton road cherry hinton",
+                        "type": "restaurant",
+                        "id": "19192",
+                        "postcode": "cb17ag",
+                        "kid_friendly": "restaurant-kid-friendly/118.png",
+                        "dance_floor": "restaurant-with-dance-floor/168.png",
+                        "dining_room": "restaurant-dining-room/351.png",
+                        "nearby_attractions": "nearby_attractions/7.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/19.png",
+                            "specialty_dishes/20.png",
+                            "specialty_dishes/21.png"
+                        ]
+                    },
+                    {
+                        "name": "taj tandoori",
+                        "area": "south",
+                        "food": "indian",
+                        "phone": "01223 412299",
+                        "pricerange": "expensive",
+                        "location": "52.188747,0.138941",
+                        "address": "64 cherry hinton road cherry hinton",
+                        "type": "restaurant",
+                        "id": "19191",
+                        "postcode": "cb17aa",
+                        "parking_lot": "restaurant-parking-lot/1.jpg",
+                        "riverside": "restaurant-riverside/211.png",
+                        "signature_food": "restaurant-signature-food/1.png",
+                        "nearby_attractions": "nearby_attractions/5.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/13.png",
+                            "specialty_dishes/14.png",
+                            "specialty_dishes/15.png"
+                        ]
+                    },
+                    {
+                        "name": "pizza hut city centre",
+                        "area": "centre",
+                        "food": "italian",
+                        "phone": "01223 323737",
+                        "pricerange": "cheap",
+                        "location": "52.20103,0.126023",
+                        "address": "regent street city centre",
+                        "type": "restaurant",
+                        "id": "19210",
+                        "postcode": "cb21ab",
+                        "garden": "restaurant-with-garden/172.png",
+                        "kid_friendly": "restaurant-kid-friendly/117.png",
+                        "dining_room": "restaurant-dining-room/350.png",
+                        "nearby_attractions": "nearby_attractions/3.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/7.png",
+                            "specialty_dishes/8.png",
+                            "specialty_dishes/9.png"
+                        ]
+                    },
+                    {
+                        "name": "prezzo",
+                        "area": "west",
+                        "food": "italian",
+                        "phone": "01799 521260",
+                        "pricerange": "moderate",
+                        "location": "52.21032,0.11367",
+                        "address": "21 - 24 northampton road",
+                        "type": "restaurant",
+                        "id": "12700",
+                        "postcode": "cb30ad",
+                        "rooftop_bar": "restaurant-rooftop-bar/182.png",
+                        "sea_view": "restaurant-with-sea-view/118.png",
+                        "signature_food": "restaurant-signature-food/15.png",
+                        "nearby_attractions": "nearby_attractions/1.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/1.png",
+                            "specialty_dishes/2.png",
+                            "specialty_dishes/3.png"
+                        ]
+                    },
+                    {
+                        "name": "the missing sock",
+                        "area": "east",
+                        "food": "international",
+                        "phone": "01223 812660",
+                        "pricerange": "cheap",
+                        "location": "52.21768,0.224907",
+                        "address": "finders corner newmarket road",
+                        "type": "restaurant",
+                        "id": "30650",
+                        "postcode": "cb259aq",
+                        "private_room": "restaurant-with-private-room/307.png",
+                        "kid_friendly": "restaurant-kid-friendly/116.png",
+                        "signature_food": "restaurant-signature-food/5.png",
+                        "nearby_attractions": "nearby_attractions/4.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/10.png",
+                            "specialty_dishes/11.png",
+                            "specialty_dishes/12.png"
+                        ]
+                    },
+                    {
+                        "name": "curry garden",
+                        "area": "centre",
+                        "food": "indian",
+                        "phone": "01223 302330",
+                        "pricerange": "expensive",
+                        "location": "52.200187,0.126407",
+                        "address": "106 regent street city centre",
+                        "type": "restaurant",
+                        "id": "19214",
+                        "postcode": "cb21dp",
+                        "dining_room": "restaurant-dining-room/353.png",
+                        "parking_lot": "restaurant-parking-lot/2.jpg",
+                        "signature_food": "restaurant-signature-food/2.png",
+                        "nearby_attractions": "nearby_attractions/6.png",
+                        "specialty_dishes": [
+                            "specialty_dishes/16.png",
+                            "specialty_dishes/17.png",
+                            "specialty_dishes/18.png"
+                        ]
+                    }
+                ],
+                "column_names": [
+                    "address",
+                    "area",
+                    "food",
+                    "id",
+                    "location",
+                    "name",
+                    "phone",
+                    "postcode",
+                    "pricerange",
+                    "type"
+                ],
+                "kb_title": "camrest676"
+            },
+            "task": {
+                "intent": "restaurant"
+            }
+        }
+    }
